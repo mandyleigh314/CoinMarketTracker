@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cryptocurrency Ticker</title>
+    <link rel='stylesheet' href='styles.css'>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class='text-center'>Cryptocurrency Live Price Tracker</h1>
+    <div class='container'>
+    <div class='row well'>
+      <div class='col-sm-4' id='totalMarket'>
+      </div>
+      <div class='col-sm-4' id='activeCurrencies'>
+      </div>
+      <div class='col-sm-4' id='bitcoinPercent'>
+      </div>
+    </div>
+    </div>
+    <table class='table table-striped table-responsive'>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Market Cap</th>
+          <th>Circulating Supply</th>
+          <th>% Change (1hr)</th>
+          <th>% Change (24hr)</th>
+          <th>% Change (7d)</th>
+        </tr>
+      </thead>
+      <tbody id='tbody'>
+      </tbody>
+    </table>
+
+  <script src='main.js'></script>
+  </body>
+</html>

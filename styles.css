@@ -1,0 +1,17 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  height: 100%;
+}
+
+p {
+  font-weight: bold;
+}
+.red {
+  color: #9a2c21;
+  font-weight: bold;
+}
+
+.green {
+  color: #247a35;
+  font-weight: bold;
+}
